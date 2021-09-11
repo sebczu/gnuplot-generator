@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
 
-  math:
+  gnuplot-generator:
     image: gnuplot-generator:latest
     volumes:
       - ./volumes:/usr/bin/charts
